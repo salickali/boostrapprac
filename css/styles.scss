@@ -1,0 +1,17 @@
+$gray: #ddd;
+
+$bdark: #512da8;
+$dlight:#9575cd;
+
+$coro-height: 300px;
+
+
+// mixin is similar to functions
+@mixin margin($pud,$plf) {
+    margin: 0px auto;
+    padding: $pud $plf;
+}
+
+.row-header{
+    @include margin(0px, 0px)
+}
